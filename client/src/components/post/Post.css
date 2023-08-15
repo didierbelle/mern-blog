@@ -1,0 +1,29 @@
+div.post{
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+div.post:hover{
+    /* outline: .2px solid gray; */
+    box-shadow: 1px 1px 10px #cacaca;
+}
+
+div.post p{
+    margin: 20px 0;
+    line-height: 2em;
+}
+
+small{
+    display: flex;
+    color: #838383;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+small span{
+    padding-right: 10px;
+    color: black;
+    font-style: normal;
+}
